@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto';
 }
 
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
 .paragraph-container {
     display: flex;
     align-items: center;
