@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+.navbar > .logo{
+    font-size: 32px;
+}
+
+.navbar > a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar > a:first-child {
+    margin-right: auto;
+}
