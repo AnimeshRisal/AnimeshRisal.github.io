@@ -26,8 +26,14 @@
     color: black;
     text-decoration: none;
     margin: 0 1rem;
+
 }
 
 .navbar > a:first-child {
     margin-right: auto;
 }
+
+.navbar > a.active, .navbar > a:hover:not(:first-child) {
+    border-bottom: 1px solid black;
+}
+
