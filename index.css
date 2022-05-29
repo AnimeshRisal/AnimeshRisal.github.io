@@ -3,3 +3,15 @@ body {
     padding: 0px;
     font-family: 'Roboto';
 }
+
+.paragraph-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20rem;
+}
+
+.paragraph-container .links {
+    text-align: center;
+}
