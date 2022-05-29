@@ -6,6 +6,16 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar > a:first-child {
+        margin: auto;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 .navbar > .logo{
     font-size: 32px;
 }

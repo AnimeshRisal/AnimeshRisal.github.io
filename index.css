@@ -1,23 +1,33 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
 }
 
 .image-container {
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
 }
 
 .paragraph-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20rem;
 }
 
 .paragraph-container .links {
-    text-align: center;
+  text-align: center;
+}
+
+.link-heading {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .paragraph-container {
+        text-align: center;
+    }
 }
