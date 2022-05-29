@@ -1,0 +1,21 @@
+.blog-list-container {
+    margin: 3rem;
+}
+
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-list-item {
+    margin-bottom: 1rem;
+}
+
+.blog-list-item > a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-list-item > a:hover{
+    border-bottom: 1px solid black;
+}
