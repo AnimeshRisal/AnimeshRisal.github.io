@@ -1,6 +1,15 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --background-color: #474e5d
+}
+
+
 body {
     margin: 0px;
     padding: 0px;
     font-family: "Roboto";
+    color: var(--white);
+    background-color: var(--background-color);
   }
   

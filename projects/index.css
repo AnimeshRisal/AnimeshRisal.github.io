@@ -13,9 +13,9 @@
 
 .project-list-item > a{
     text-decoration: none;
-    color: black;
+    color: var(--white);
 }
 
 .project-list-item > a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--white);;
 }
